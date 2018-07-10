@@ -19,7 +19,6 @@ export default class StudentContent extends React.Component {
     
   }
 
-
   toggle() {
     this.setState({
       dropdownOpen: !this.state.dropdownOpen

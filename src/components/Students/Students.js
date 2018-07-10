@@ -26,8 +26,6 @@ const buttonsInstance = (
 
 );
 
-const ASSIGNMENTS = ['Assignment 1', 'Assignment 2', 'Assignment 3','Assignment 4'];
-const PEERREVIEWS = ['Peer Review 1', 'Peer Review 2', 'Peer Review 3', 'Peer Review 4'];
 
 class Students extends Component {
 
