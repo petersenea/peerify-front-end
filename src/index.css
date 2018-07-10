@@ -1,0 +1,78 @@
+/*
+deep plum: #25283d
+violet: #8f3985
+lavendar: #a675a1
+dusty rose: #cea2ac
+light peach: #efd9ce
+apricot: #e4b890
+
+new-
+apricot: #ffb997
+light peach: #efd9ce
+grapefruit: #f67e7d
+violet: #843b62
+navy plum: #0b032d
+lavendar: #74546a
+*/
+:root{
+  --apricot: #ffb997;
+  --light-peach: #efd9ce;
+  --grapefruit: #f67e7d;
+  --violet:#843b62;
+  --navy-plum:#0b032d;
+  --dark-lavendar:#74546a;
+  --light-lavendar:#a37494;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.login-group{
+  min-width:300px;
+  max-width:400px;
+  width:30vw;
+  margin-top: 30vh;
+}
+.right-side-col{
+ /* background-color:#cea2ac;*/
+  background-color:var(--light-lavendar);
+  height:100vh;
+}
+.left-side-col{
+  background-color:white;
+ /* background-color: #efd9ce;*/
+  color:var(--navy-plum);
+  
+}
+.row{
+width:100vw;
+}
+
+.submit-button{
+  border:none;
+  /*box-shadow:2px 2px gray;*/
+  padding:5px;
+  padding-left:7px;
+  padding-right:7px;
+  background-color:var(--navy-plum);
+ /* background-color: #25283d;*/  
+  color:var(--light-peach);
+}
+.create-account{
+  border:none;
+  /*box-shadow:2px 2px gray;*/
+  padding:5px;
+  padding-left:7px;
+  padding-right:7px;
+  background-color:var(--navy-plum);
+  /*background-color: #25283d;*/
+  color:var(--light-peach);
+  margin-left:10px;
+}
+.please-signin{
+  color:var(--navy-plum);
+}
+
+
