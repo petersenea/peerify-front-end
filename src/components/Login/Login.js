@@ -31,7 +31,9 @@ class Login extends Component {
                                 <button className="submit-button">
                                     Submit</button>
                             </Link>
+                            <Link to="/create-account">
                             <button className="create-account">Create an Account</button>
+                            </Link>
                         </Form>
 
                     </div>

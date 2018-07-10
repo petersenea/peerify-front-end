@@ -7,6 +7,7 @@ import Assignments from './components/Assignments/Assignments';
 import CourseHome from './components/CourseHome/CourseHome';
 import GeneralHome from './components/GeneralHome/GeneralHome';
 import Students from './components/Students/Students';
+import CreateAccount from './components/CreateAccount/CreateAccount';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <Route path="/assignments" exact component={Assignments} />
           <Route path="/general-home-page" exact component={GeneralHome} />
           <Route path="/students" exact component={Students} />
+          <Route path="/create-account" exact component={CreateAccount} />
           {this.props.children}
       </div>
       </Router>
