@@ -15,6 +15,12 @@ class CreateAccount extends Component {
                         <h1 className="please-signin">Create an Account</h1>
                         <Form>
                             <FormGroup>
+                                <Input type="firstname" name="firstname" id="exampleFirst" placeholder="First Name" />
+                            </FormGroup>
+                            <FormGroup>
+                                <Input type="lastname" name="lastname" id="exampleLast" placeholder="Last Name" />
+                            </FormGroup>
+                            <FormGroup>
                                 <Input type="email" name="email" id="exampleEmail" placeholder="Email address" />
                             </FormGroup>
                             <FormGroup>
